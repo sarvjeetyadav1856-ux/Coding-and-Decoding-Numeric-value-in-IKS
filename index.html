@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Mobile responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Website title -->
+    <title>BharatCode - Classical Indian Coding Tool</title>
+
+    <!-- CSS file connect -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+            🇮🇳 BharatCode
+        </div>
+
+        <div class="tagline">
+            Classical Indian Coding & Decoding
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- Hero Section -->
+
+        <section class="hero">
+
+            <h1>
+                Classical Indian
+                <span>Coding & Decoding</span>
+            </h1>
+
+            <p>
+                Explore traditional Indian coding concepts
+                using a modern web application.
+            </p>
+
+        </section>
+
+
+        <!-- ================= TOOL ================= -->
+
+        <section class="tool">
+
+            <h2>
+                Coding & Decoding Tool
+            </h2>
+
+
+            <!-- Technique Selection -->
+
+            <div class="form-group">
+
+                <label for="method">
+                    Select Technique
+                </label>
+
+                <select id="method">
+
+                    <option value="katapayadi">
+                        Katapayadi System
+                    </option>
+
+                    <option value="bhuta">
+                        Bhūta Saṅkhyā
+                    </option>
+
+                    <option value="custom">
+                        Custom Akṣara Mapping
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <!-- Input -->
+
+            <div class="form-group">
+
+                <label for="inputText">
+                    Enter Text
+                </label>
+
+                <textarea
+                    id="inputText"
+                    placeholder="Enter your text here..."
+                ></textarea>
+
+            </div>
+
+
+            <!-- Buttons -->
+
+            <div class="buttons">
+
+                <button
+                    id="encodeBtn"
+                    class="encode"
+                >
+                    Encode →
+                </button>
+
+
+                <button
+                    id="decodeBtn"
+                    class="decode"
+                >
+                    ← Decode
+                </button>
+
+            </div>
+
+
+            <!-- Result -->
+
+            <div class="form-group">
+
+                <label for="result">
+                    Result
+                </label>
+
+                <textarea
+                    id="result"
+                    placeholder="Your result will appear here..."
+                    readonly
+                ></textarea>
+
+            </div>
+
+
+            <!-- Copy Button -->
+
+            <button
+                id="copyBtn"
+                class="copy"
+            >
+                📋 Copy Result
+            </button>
+
+
+            <!-- Clear Button -->
+
+            <button
+                id="clearBtn"
+                class="clear"
+            >
+                🗑 Clear
+            </button>
+
+
+            <!-- Status -->
+
+            <p id="status">
+                Ready
+            </p>
+
+        </section>
+
+
+        <!-- ================= INFORMATION ================= -->
+
+        <section class="information">
+
+            <h2>
+                Classical Indian Techniques
+            </h2>
+
+
+            <div class="cards">
+
+
+                <!-- Card 1 -->
+
+                <div class="card">
+
+                    <div class="number">
+                        01
+                    </div>
+
+                    <h3>
+                        Katapayadi System
+                    </h3>
+
+                    <p>
+                        A traditional Indian mnemonic
+                        system that associates Sanskrit
+                        consonants with numbers.
+                    </p>
+
+                </div>
+
+
+                <!-- Card 2 -->
+
+                <div class="card">
+
+                    <div class="number">
+                        02
+                    </div>
+
+                    <h3>
+                        Bhūta Saṅkhyā
+                    </h3>
+
+                    <p>
+                        A traditional system where
+                        familiar objects and concepts
+                        represent numbers.
+                    </p>
+
+                </div>
+
+
+                <!-- Card 3 -->
+
+                <div class="card">
+
+                    <div class="number">
+                        03
+                    </div>
+
+                    <h3>
+                        Custom Mapping
+                    </h3>
+
+                    <p>
+                        Create your own character
+                        substitution system for
+                        experimentation.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= HOW TO USE ================= -->
+
+        <section class="how">
+
+            <h2>
+                How To Use
+            </h2>
+
+            <ol>
+
+                <li>
+                    Select a coding technique.
+                </li>
+
+                <li>
+                    Enter your text.
+                </li>
+
+                <li>
+                    Click Encode or Decode.
+                </li>
+
+                <li>
+                    Copy the generated result.
+                </li>
+
+            </ol>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 BharatCode | Educational Project
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript file -->
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

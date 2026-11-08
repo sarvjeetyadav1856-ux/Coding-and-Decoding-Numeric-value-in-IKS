@@ -1,0 +1,517 @@
+/* =========================
+   BASIC RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #f7f3ed;
+
+    color: #222;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    width: 100%;
+
+    padding: 20px 8%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background: #ffffff;
+
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* Logo */
+
+.logo {
+    font-size: 26px;
+
+    font-weight: bold;
+
+    color: #b44b24;
+}
+
+
+/* Tagline */
+
+.tagline {
+    color: #777;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+main {
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: auto;
+}
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    text-align: center;
+
+    padding: 70px 20px 40px;
+}
+
+
+.hero h1 {
+    font-family: Georgia, serif;
+
+    font-size: 48px;
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+}
+
+
+.hero h1 span {
+    display: block;
+
+    color: #b44b24;
+}
+
+
+.hero p {
+    color: #666;
+
+    font-size: 17px;
+
+    max-width: 650px;
+
+    margin: auto;
+}
+
+
+/* =========================
+   TOOL
+========================= */
+
+.tool {
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.08);
+
+    margin-bottom: 50px;
+}
+
+
+.tool h2 {
+    font-family: Georgia, serif;
+
+    font-size: 28px;
+
+    margin-bottom: 30px;
+
+    color: #333;
+}
+
+
+/* =========================
+   FORM GROUP
+========================= */
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+
+    color: #555;
+}
+
+
+/* =========================
+   SELECT
+========================= */
+
+select {
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    background: #fff;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   TEXTAREA
+========================= */
+
+textarea {
+    width: 100%;
+
+    min-height: 160px;
+
+    padding: 15px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+    resize: vertical;
+
+    font-size: 16px;
+
+    font-family: inherit;
+
+    outline: none;
+}
+
+
+/* Textarea focus */
+
+textarea:focus,
+select:focus {
+    border-color: #b44b24;
+
+    box-shadow:
+        0 0 0 3px rgba(180, 75, 36, 0.1);
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.buttons {
+    display: flex;
+
+    gap: 12px;
+
+    margin-bottom: 25px;
+}
+
+
+button {
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 13px 22px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+/* Encode */
+
+.encode {
+    background: #b44b24;
+
+    color: white;
+}
+
+
+.encode:hover {
+    background: #913a1b;
+
+    transform: translateY(-2px);
+}
+
+
+/* Decode */
+
+.decode {
+    background: #eee5da;
+
+    color: #333;
+}
+
+
+.decode:hover {
+    background: #ddd0c1;
+
+    transform: translateY(-2px);
+}
+
+
+/* Copy */
+
+.copy {
+    background: #2d6a4f;
+
+    color: white;
+
+    margin-right: 10px;
+}
+
+
+.copy:hover {
+    background: #22523d;
+}
+
+
+/* Clear */
+
+.clear {
+    background: #eee;
+
+    color: #333;
+}
+
+
+.clear:hover {
+    background: #ddd;
+}
+
+
+/* =========================
+   STATUS
+========================= */
+
+#status {
+    margin-top: 20px;
+
+    color: #777;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   INFORMATION
+========================= */
+
+.information {
+    margin-bottom: 50px;
+}
+
+
+.information h2,
+.how h2 {
+    text-align: center;
+
+    font-family: Georgia, serif;
+
+    font-size: 32px;
+
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.cards {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+.card {
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    border: 1px solid #e4ddd4;
+
+    transition: 0.3s;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+.number {
+    color: #b44b24;
+
+    font-weight: bold;
+
+    font-size: 14px;
+
+    margin-bottom: 10px;
+}
+
+
+.card h3 {
+    margin-bottom: 10px;
+
+    font-family: Georgia, serif;
+
+    font-size: 21px;
+}
+
+
+.card p {
+    color: #666;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   HOW TO USE
+========================= */
+
+.how {
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    margin-bottom: 60px;
+}
+
+
+.how ol {
+    max-width: 600px;
+
+    margin: auto;
+}
+
+
+.how li {
+    padding: 12px;
+
+    margin-bottom: 8px;
+
+    background: #f5eee5;
+
+    border-radius: 8px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+
+    padding: 30px;
+
+    background: #211b17;
+
+    color: #ddd;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 18px 5%;
+
+        flex-direction: column;
+
+        gap: 8px;
+
+        text-align: center;
+    }
+
+
+    .hero {
+        padding-top: 45px;
+    }
+
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+
+    .tool {
+        padding: 22px;
+    }
+
+
+    .buttons {
+        flex-direction: column;
+    }
+
+
+    .buttons button {
+        width: 100%;
+    }
+
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+
+    .information h2,
+    .how h2 {
+        font-size: 27px;
+    }
+
+}
